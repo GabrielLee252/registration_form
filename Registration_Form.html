@@ -13,11 +13,11 @@
     <form action="/process" method="post">
         <div>
             <label>First Name: *</label>
-            <input type="text" firstName="name" placeholder="First Name">
+            <input type="text" name="name" placeholder="First Name">
         </div>
         <div>
             <label>Last Name: *</label>
-            <input type="text" lastName="name" placeholder="Last Name">
+            <input type="text" name="name" placeholder="Last Name">
         </div>
         <div>
             <label>Email Address: </label>
@@ -25,24 +25,24 @@
         </div>
         <div>
             <label>Password: *</label>
-            <input type="password" password="password" placeholder="Your password">
+            <input type="password" name="password" placeholder="Your password">
         </div>
         <div>
             <label>Comfirm Password: *</label>
-            <input type="password" password="password" placeholder="Confirm password">
+            <input type="password" name="cpassword" placeholder="Confirm password">
         </div>
         <label>Birthday: </label>
         <input type="date" name="dob">
         <div>
             <label>Gender Identity: </label>
-            <input type="radio" name="male" id="accept">
-            <label for="accept">Male</label>
-            <input type="radio" name="female" id="accept">
-            <label for="accept">Female</label>
-            <input type="radio" name="non-binary" id="accept">
-            <label for="accept">Non-binary</label>
-            <input type="radio" name="no answer" id="accept">
-            <label for="accept">I prefer not to answer</label>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="non-binary" id="non-binary">
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" name="no_answer" id="no_answer">
+            <label for="no_answer">I prefer not to answer</label>
         </div>
         <div>
             <label>A short description of myself: </label>
